@@ -16,7 +16,7 @@ Neroworks provides a gasless, wallet-free experience using:
 - **Blockspace 2.0** for fair, MEV-resistant job contract execution.
 
 ## 👥 User Flow
-![User Flow Diagram](assets/userflow.png/)
+![User Flow Diagram](assets/userflow.png)
 
 **Freelancer:**
 1. Visits app → logs in with email (AA)
@@ -57,7 +57,7 @@ Neroworks showcases a clear integration of:
 - **Paymaster**: Sponsored transactions for freelancers, flexible gas logic, ERC20-based gas payments.
 
 ## 🧩 Architecture Overview
-![Architecture Diagram](assets/architecture.png/)
+![Architecture Diagram](assets/architecture.png)
 
 - **Frontend**: React / Next.js
 - **Smart Contracts**: Job escrow, milestone tracking, payment release
