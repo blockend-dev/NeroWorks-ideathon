@@ -16,18 +16,21 @@ Neroworks provides a gasless, wallet-free experience using:
 - **Blockspace 2.0** for fair, MEV-resistant job contract execution.
 
 ## 👥 User Flow
+
 ![mermaid-diagram-2025-04-23-083154](https://github.com/user-attachments/assets/d8f30555-b027-488e-bc9e-41e0ebb3087c)
 
 **Freelancer:**
 1. Visits app → logs in with email (AA)
 2. Browses gigs, applies, gets hired
 3. Delivers work → gets paid, no gas paid
+   
 ![mermaid-diagram-2025-04-23-083749-freelancer](https://github.com/user-attachments/assets/6f87cb56-4590-4830-8028-12ae1531f76d)
 
 **Client:**
 1. Logs in → posts job
 2. Reviews applicants → hires → deposits escrow
 3. Approves delivery → funds released automatically
+   
 ![mermaid-diagram-2025-04-23-083902-client](https://github.com/user-attachments/assets/06de8248-cf80-4aff-aa31-84c9f0e89c64)
 
 
@@ -42,17 +45,9 @@ Neroworks showcases a clear integration of:
 - **Frontend**: React / Next.js
 - **Smart Contracts**: Job escrow, milestone tracking, payment release
 - **NERO Chain SDKs**: For AA smart accounts and Paymaster logic
-- **Optional backend**: Metadata storage, notifications, job feeds
-
-graph LR
-    A[Frontend (React App)] --> B[Backend API (Node.js)]
-    B --> C[Database (MongoDB)]
-    B --> D[Smart Contracts (NERO Chain)]
-    D --> E[Escrow Handling]
-    D --> F[Payment Release]
-    B --> G[NERO Chain Integration]
-    G --> H[Paymaster API]
-    G --> I[Account Abstraction (AA)]
+- **IPFS**: Metadata storage, notifications, job feeds
+  
+![mermaid-diagram-2025-04-23-084443-archi](https://github.com/user-attachments/assets/5a8ba90c-a37a-4516-8fd1-1173e9a61ed5)
 
 
 ## 🎨 Innovation & Relevance 
