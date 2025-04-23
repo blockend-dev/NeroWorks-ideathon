@@ -34,21 +34,19 @@ Neroworks provides a gasless, wallet-free experience using:
 ![mermaid-diagram-2025-04-23-083902-client](https://github.com/user-attachments/assets/06de8248-cf80-4aff-aa31-84c9f0e89c64)
 
 
-## 🧠 AA & Paymaster Vision (30%)
+## 🧠 AA & Paymaster Vision
 Neroworks showcases a clear integration of:
 - **Account Abstraction**: Walletless onboarding, session keys for job tasks, and programmable smart accounts.
 - **Paymaster**: Sponsored transactions for freelancers, flexible gas logic, ERC20-based gas payments.
 
 ## 🧩 Architecture Overview
-![Architecture Diagram](assets/architecture.png)
+
+![mermaid-diagram-2025-04-23-084443-archi](https://github.com/user-attachments/assets/5a8ba90c-a37a-4516-8fd1-1173e9a61ed5)
 
 - **Frontend**: React / Next.js
 - **Smart Contracts**: Job escrow, milestone tracking, payment release
 - **NERO Chain SDKs**: For AA smart accounts and Paymaster logic
 - **IPFS**: Metadata storage, notifications, job feeds
-  
-![mermaid-diagram-2025-04-23-084443-archi](https://github.com/user-attachments/assets/5a8ba90c-a37a-4516-8fd1-1173e9a61ed5)
-
 
 ## 🎨 Innovation & Relevance 
 Neroworks creatively applies NERO’s AA and gasless infra to an untapped segment: global freelancers and startups. It aligns with themes like usability, AA innovation, and real-world adoption.
