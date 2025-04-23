@@ -22,34 +22,14 @@ Neroworks provides a gasless, wallet-free experience using:
 1. Visits app → logs in with email (AA)
 2. Browses gigs, applies, gets hired
 3. Delivers work → gets paid, no gas paid
-
-graph TD
-    A2[Freelancer Journey] --> B2[Create Account]
-    B2 --> C2[Browse Jobs]
-    C2 --> D2[Apply for Job]
-    D2 --> E2[Get Hired]
-    E2 --> F2[Complete Work]
-    F2 --> G2[Get Paid (Release from Escrow)]
-
+![mermaid-diagram-2025-04-23-083749-freelancer](https://github.com/user-attachments/assets/6f87cb56-4590-4830-8028-12ae1531f76d)
 
 **Client:**
 1. Logs in → posts job
 2. Reviews applicants → hires → deposits escrow
 3. Approves delivery → funds released automatically
+![mermaid-diagram-2025-04-23-083902-client](https://github.com/user-attachments/assets/06de8248-cf80-4aff-aa31-84c9f0e89c64)
 
-graph TD
-    A[Client Journey] --> B[Create Account]
-    B --> C[Post Job]
-    C --> D[Review Freelancer Applications]
-    D --> E[Hire Freelancer]
-    E --> F[Deposit Payment (Escrow)]
-    F --> G[Approve Work]
-    G --> H[Release Payment]
-
-
-
-
-(Diagrams in `/assets`)
 
 ## 🧠 AA & Paymaster Vision (30%)
 Neroworks showcases a clear integration of:
